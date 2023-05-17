@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wille\\source\\repos\\Location_voitures\\Location_voitures.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wille\\source\\repos\\Location_voitures\\Location_voitures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wille\\source\\repos\\Location_voitures\\Location_voitures.csproj",
+        "projectName": "Location_voitures",
+        "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voitures\\Location_voitures.csproj",
+        "packagesPath": "C:\\Users\\wille\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wille\\source\\repos\\Location_voitures\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\wille\\source\\repos\\Location_voitures_BLL\\Location_voitures_BLL.csproj": {
+                "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voitures_BLL\\Location_voitures_BLL.csproj"
+              },
+              "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\Location_voitures_DAL.csproj": {
+                "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\Location_voitures_DAL.csproj"
+              },
+              "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj": {
+                "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wille\\source\\repos\\Location_voitures_BLL\\Location_voitures_BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wille\\source\\repos\\Location_voitures_BLL\\Location_voitures_BLL.csproj",
+        "projectName": "Location_voitures_BLL",
+        "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voitures_BLL\\Location_voitures_BLL.csproj",
+        "packagesPath": "C:\\Users\\wille\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wille\\source\\repos\\Location_voitures_BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\Location_voitures_DAL.csproj": {
+                "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\Location_voitures_DAL.csproj"
+              },
+              "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj": {
+                "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\Location_voitures_DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\Location_voitures_DAL.csproj",
+        "projectName": "Location_voitures_DAL",
+        "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\Location_voitures_DAL.csproj",
+        "packagesPath": "C:\\Users\\wille\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wille\\source\\repos\\Location_voitures_DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj": {
+                "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj",
+        "projectName": "Location_voiture_COMMON",
+        "projectPath": "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\Location_voiture_COMMON.csproj",
+        "packagesPath": "C:\\Users\\wille\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wille\\source\\repos\\Location_voiture_COMMON\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
